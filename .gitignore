@@ -8,3 +8,8 @@ public/assets
 
 # Ignore application configuration
 /config/application.yml
+# Added by Breakfast Gem
+yarn-error.log
+npm-debug.log
+node_modules/*
+public/assets/*
