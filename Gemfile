@@ -3,7 +3,7 @@ ruby '2.4.0'
 
 gem 'rails', '5.0.2'
 gem 'puma'
-gem 'pg'
+gem 'mysql2'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
 gem 'redis'
@@ -19,7 +19,7 @@ gem 'autoprefixer-rails'
 group :development, :test do
   gem 'binding_of_caller'
   gem 'better_errors'
-  
+
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'spring'
