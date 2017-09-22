@@ -6,8 +6,9 @@ Turbolinks.start();
 // Require https://github.com/rails/jquery-ujs
 import 'jquery-ujs';
 
-import Hello from './components/Hello.vue';
-import FicheContact from './components/FicheContact.vue';
+// import Hello from './components/Hello.vue';
+import ContactsView from './components/ContactsView.vue';
+
 // Import this if you wish to use CSS in your .vue files.
 // See section below for more information.
 // import "vueify/lib/insert-css";
@@ -21,8 +22,7 @@ let App = {
       root = new Vue({
         el: '#root',
         components: {
-          'hello': Hello,
-          'fiche-contact': FicheContact
+          'contacts-view': ContactsView
         }
       })
     });

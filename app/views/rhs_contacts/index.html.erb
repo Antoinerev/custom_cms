@@ -1,17 +1,4 @@
-<ul>
-  <% @contacts.each do |contact| %>
-    <li><%= contact.contacts_nom %></li>
-  <% end %>
-</ul>
-
 <div id="root">
-  <hello></hello>
-  <hr>
-  <ul>
-  <% @contacts.each do |contact| %>
-    <li>
-      <fiche-contact v-bind:nom_contact="'<%= contact.contacts_nom %>'"></fiche-contact>
-    </li>
-  <% end %>
-</ul>
+  <!-- <contacts-view v-bind:all-contacts="'[{'nom': toto, 'prenom': tata}]'"></contacts-view> -->
+  <contacts-view v-bind:all-contacts="JSON.parse('<%= @contacts_js %>')"></contacts-view>
 </div>

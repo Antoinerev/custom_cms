@@ -1,11 +1,12 @@
 <template>
   <div>
-    <h2>Nom : {{nom_contact}}</h2>
+    <h2>Nom : {{nomContact}}</h2>
   </div>
 </template>
 
 <script>
   export default {
-    props: ['nom_contact']
+    name: 'fiche-contact',
+    props: ['nomContact']
   }
 </script>
