@@ -8,8 +8,8 @@
       <!-- {{allContacts.length}} -->
       <div v-for="contact in filteredContacts" >
         <li >
-          <!-- {{contact.contacts_nom}} -->
-          <fiche-contact v-bind:nom-contact="contact.contacts_nom"></fiche-contact>
+          <!-- {{contact.contacts_idx}} -->
+          <fiche-contact v-bind:nom-contact="contact.contacts_nom" v-bind:id-contact="contact.contacts_idx"></fiche-contact>
 
         </li>
       </div>

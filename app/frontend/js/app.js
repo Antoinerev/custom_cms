@@ -8,6 +8,7 @@ import 'jquery-ujs';
 
 // import Hello from './components/Hello.vue';
 import ContactsView from './components/ContactsView.vue';
+import ContactDetails from './components/ContactDetails.vue';
 
 // Import this if you wish to use CSS in your .vue files.
 // See section below for more information.
@@ -22,7 +23,8 @@ let App = {
       root = new Vue({
         el: '#root',
         components: {
-          'contacts-view': ContactsView
+          'contacts-view': ContactsView,
+          'contact-details': ContactDetails
         }
       })
     });
