@@ -2,9 +2,16 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
-$base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Raleway", "Helvetica", "sans-serif";
+// @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+// $base-font: "Open Sans", "Helvetica", "sans-serif";
+// $header-font: "Raleway", "Helvetica", "sans-serif";
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900&subset=latin-ext');
+@font-face {
+  font-family: 'Big John';
+  src:font-url('big_john.otf');
+}
+$base-font: 'Maven Pro', sans-serif;
+$header-font: "Big John", "Helvetica", "sans-serif";
 
 // Local fonts (uncomment following lines)
 // @font-face {

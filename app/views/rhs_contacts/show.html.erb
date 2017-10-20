@@ -1,5 +1,22 @@
 <div id="root">
   <!-- <contacts-view v-bind:all-contacts="JSON.parse('<%= @contacts_js %>')"></contacts-view> -->
-  <contact-details v-bind:contact="JSON.parse('<%= @contact_js %>')"></contact-details>
+
+  <div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src=<%= image_path "Oculus/Oculus.mp4" %> type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src=<%= image_path "Oculus/Oculus.webm" %> type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="video-text">
+          <contact-details v-bind:contact="JSON.parse('<%= @contact_js %>')"></contact-details>
+        </div>
+        <div class="poster hidden">
+            <img src=<%= image_path "Oculus/Oculus.jpg" %> alt="">
+        </div>
+    </div>
+</div>
+
+
 
 </div>

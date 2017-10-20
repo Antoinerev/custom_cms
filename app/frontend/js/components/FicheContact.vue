@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="fiche-contact">
     <a v-bind:href="`/rhs_contacts/${idContact}`" ><h2>Nom : {{nomContact}}</h2></a>
   </div>
 </template>

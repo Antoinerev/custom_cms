@@ -4,7 +4,7 @@
       v-on:searching="searchContact"
       v-on:resetSearch="resetFilter"></search-field>
     <hr>
-    <ul >
+    <ul class="main-box">
       <!-- {{allContacts.length}} -->
       <div v-for="contact in filteredContacts" >
         <li >
