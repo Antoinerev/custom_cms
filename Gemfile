@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.4.0'
+ruby '2.4.2'
 
-gem 'rails', '5.0.2'
+gem 'rails', '5.0.5'
 gem 'puma'
 gem 'mysql2'
 gem 'figaro'
